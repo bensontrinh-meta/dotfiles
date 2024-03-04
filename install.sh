@@ -15,11 +15,11 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 echo "[SETUP] Vim"
 sudo apt-get install vim -y
 
-echo "[SETUP] kubectx"
-sudo apt-get install kubectx
+# echo "[SETUP] kubectx"
+# sudo apt-get install kubectx -y
 
-echo "[SETUP] k9s"
-go install github.com/derailed/k9s@latest
+# echo "[SETUP] k9s"
+# go install github.com/derailed/k9s@latest
 
 echo "[INSTALL] Chezmoi"
 export BINDIR=$HOME/.local/bin
