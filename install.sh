@@ -18,8 +18,8 @@ sudo apt-get install vim -y
 # echo "[SETUP] kubectx"
 # sudo apt-get install kubectx -y
 
-# echo "[SETUP] k9s"
-# go install github.com/derailed/k9s@latest
+echo "[SETUP] k9s"
+curl -sS https://webinstall.dev/k9s | bash
 
 echo "[INSTALL] Chezmoi"
 export BINDIR=$HOME/.local/bin
