@@ -95,6 +95,7 @@ plugins=(
   bazel 
   minikube 
   kubectl
+  direnv
 )
 
 source $ZSH/oh-my-zsh.sh
