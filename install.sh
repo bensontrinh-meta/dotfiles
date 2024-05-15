@@ -34,9 +34,9 @@ sh -c "$(curl -fsLS chezmoi.io/get)"
 echo "[SETUP] Chezmoi"
 $BINDIR/chezmoi init $GITHUB_USERNAME
 
-echo "[SETUP] direnv"
-curl -sfL https://direnv.net/install.sh | bash
-direnv allow .
+# echo "[SETUP] direnv"
+# curl -sfL https://direnv.net/install.sh | bash
+# direnv allow .
 
 echo "[APPLY] apply dotfiles"
 $BINDIR/chezmoi apply
