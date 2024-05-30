@@ -163,3 +163,5 @@ alias czc="cz commit"
 alias down="git fetch && git pull"
 alias downm="git fetch && git rebase origin/master"
 alias downd="git fetch && git rebase origin/develop"
+
+unsetopt correct_all
