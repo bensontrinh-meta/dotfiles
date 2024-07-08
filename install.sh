@@ -31,9 +31,9 @@ echo "[INSTALL] Chezmoi"
 export BINDIR=$HOME/.local/bin
 sh -c "$(curl -fsLS chezmoi.io/get)"
 
-echo "[INSTALL] TELEPRESENCE"
-curl -fL https://app.getambassador.io/download/tel2oss/releases/download/v2.17.0/telepresence-linux-amd64 -o /usr/local/bin/telepresence
-chmod a+x /usr/local/bin/telepresence
+# echo "[INSTALL] TELEPRESENCE"
+# curl -fL https://app.getambassador.io/download/tel2oss/releases/download/v2.17.0/telepresence-linux-amd64 -o /usr/local/bin/telepresence
+# chmod a+x /usr/local/bin/telepresence
 
 echo "[SETUP] Chezmoi"
 $BINDIR/chezmoi init $GITHUB_USERNAME
